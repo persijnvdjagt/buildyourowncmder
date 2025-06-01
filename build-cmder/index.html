@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Build your own CMD'er</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Reload</a>
+    </header>
+
+    <main>
+        <audio id="retail" src="snd/retail.mp3" preload="auto"></audio>
+
+        <!-- startscreen -->
+        <section id="startscherm">
+            <img src="images/cmd-logo.jpg" alt="moet nog ingevuld worden">
+            <h1>Build your own CMD'er</h1>
+            <p>Welkom bij build your own CMD'er. Maak een avatar voor je profielfoto op teams!</p>
+            <button id="startButton">
+               Start!
+                
+            </button>
+        </section>
+
+        <!-- cmd'er aanpassen -->
+        <section id="aanpassen" class="hidden">
+            <h2>Pas je digitale vormgever aan</h2>
+            <figure id="image-container">
+                <img id="broek" class="layer" src="images/broek-1.png" alt="broek">
+                <img id="schoenen" class="layer" src="images/schoenen-1.png" alt="schoenen">
+                <img id="shirt" class="layer" src="images/shirt-1.png" alt="shirt">
+                <img id="lichaam" class="layer" src="images/lichaam-1.png" alt="lichaam">
+                <img id="haar" class="layer" src="images/haar-1.png" alt="haar">
+            </figure>
+
+            <div class="buttons">
+                <button id="skinButton">Lichaam</button>
+                <button id="hairButton">Haar</button>
+                <button id="pantsButton">Broek</button>
+                <button id="shoesButton">Schoenen</button>
+                <button id="shirtButton">Shirt</button>
+                <button id="downloadButton">Download je CMD'er</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
